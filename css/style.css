@@ -1,0 +1,63 @@
+
+body{
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.container{
+    
+    max-width: 1200px;
+    margin: auto;
+    
+}
+
+
+#hero{
+ height: 100vh;
+ background: rgba(0,0,0,0.75) url(./img/bg.jpg) no-repeat center top / cover;
+ background-blend-mode: overlay;
+ position: relative;
+}
+
+.hero_content_box{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1200px;
+    text-align: center;
+}
+
+.hero_content_box h1{
+    font-size: 75px;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+.hero_content_box h1 span.hello{
+    display: block;
+}
+
+.social_list{
+    margin: 0;
+    padding: 0;
+}
+
+.social_list li {
+    display: inline-block;
+}
+
+.social_list li ion-icon{
+    color: #fff;
+    font-size: 20px;
+    background: #000;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social_list li ion-icon:hover{
+    background: rgb(10, 163, 219);
+}
+
